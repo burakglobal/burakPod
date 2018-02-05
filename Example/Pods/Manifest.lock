@@ -1,0 +1,23 @@
+PODS:
+  - burakPod (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - burakPod (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+EXTERNAL SOURCES:
+  burakPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  burakPod: 5460f2416113d79365328f82c8e4ed9132a645dd
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 32de199e6aa7042faa75bae899604dae4f57c991
+
+COCOAPODS: 1.3.1

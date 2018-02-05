@@ -1,0 +1,6 @@
+framework module Pods_burakPod_Example {
+  umbrella header "Pods-burakPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
