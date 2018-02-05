@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'burakPod_Example' do
+  pod 'burakPod', :path => '../'
+
+  target 'burakPod_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
